@@ -1,0 +1,20 @@
+body{
+    background-color: #FFFFFF;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.main-text{
+    border-right: 2px solid black;
+}
+
+#main-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -375px;
+    margin-left: -375px;
+    width: 750px;
+    height: 100px;
+}
+
