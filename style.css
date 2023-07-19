@@ -1,6 +1,39 @@
 body{
     background-color: #FFFFFF;
     font-family: 'Oswald', sans-serif;
+
+#blog-title{
+    margin-top: -375px;
+}
+
+.blog-header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -650px;
+    width: 750px;
+    height: 100px;
+}
+
+#links {
+    margin-top: -100px;
+}
+
+#about-me{
+    margin-top: -200px;
+}
+}
+.logo{
+    width:42px;
+    height:42px;
+}
+
+#github-logo{
+    margin-top: -400px;
+}
+
+#reddit-logo{
+    margin-top: -250px;
 }
 
 .main-text{
@@ -45,4 +78,14 @@ body{
 
 #rec2{
     margin-top: -120px;
+}
+
+#rec3{
+    margin-top: -15px;
+}
+
+#all-a{
+    text-align: center;
+    margin-top: 95px;
+    height: 30px;
 }
