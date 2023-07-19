@@ -1,7 +1,6 @@
 body{
     background-color: #FFFFFF;
     font-family: 'Oswald', sans-serif;
-
 }
 
 .main-text{
@@ -23,8 +22,27 @@ body{
     top: 50%;
     left: 50%;
     margin-top: -275px;
-    margin-left: 425px;
+    margin-left: 400px;
     width: 200px;
     height: 100px;
+}
 
+.rec{
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 75px;
+    margin-left: 400px;
+}
+
+#rec1{
+    margin-top: -225px;
+}
+
+#rec2{
+    margin-top: -120px;
 }
