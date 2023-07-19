@@ -4,40 +4,73 @@ body{
 
 #blog-title{
     margin-top: -375px;
+    margin-left: -660px;
 }
 
 .blog-header{
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-left: -650px;
     width: 750px;
     height: 100px;
 }
 
-#links {
-    margin-top: -100px;
+.hidden-link{
+    color: black;
+    text-decoration: none;
+}
+
+#links{
+    margin-top: -65px;
+    margin-left: -660px;
 }
 
 #about-me{
-    margin-top: -200px;
+    margin-top: -175px;
+    margin-left: -660px;
 }
-}
+
 .logo{
-    width:42px;
-    height:42px;
+    width:18px;
+    height:18px;
 }
 
 #github-logo{
-    margin-top: -400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -65px;
+    margin-left: -610px;
 }
 
 #reddit-logo{
-    margin-top: -250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -610px;
 }
 
-.main-text{
-    border-right: 2px solid black;
+#blog-header-line-left {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -375px;
+    margin-left: -395px;
+    width: 1px;
+    height: 400px;
+    border-right: solid;
+}
+
+#blog-header-line-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -375px;
+    margin-left: 395px;
+    width: 1px;
+    height: 530px;
+    border-right: solid;
 }
 
 #main-text{
@@ -55,7 +88,7 @@ body{
     top: 50%;
     left: 50%;
     margin-top: -275px;
-    margin-left: 400px;
+    margin-left: 420px;
     width: 200px;
     height: 100px;
 }
@@ -69,7 +102,13 @@ body{
     left: 50%;
     width: 200px;
     height: 75px;
-    margin-left: 400px;
+    margin-left: 420px;
+}
+
+#title_picture{
+
+    width: 750px;
+    height: 375px;
 }
 
 #rec1{
