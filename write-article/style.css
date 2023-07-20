@@ -93,10 +93,24 @@ body{
   border-radius: 4px;
   background-color: #f8f8f8;
   resize: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+
 }
+
+#subtitle_submit{
+  width: 35%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 13px;}
 
 .submit_main{
   width: 100%;
+  margin-top: 10px;
   height: 200px;
   padding: 12px 20px;
   box-sizing: border-box;
@@ -104,6 +118,29 @@ body{
   border-radius: 4px;
   background-color: #f8f8f8;
   resize: none;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.button {
+  height: 25px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  font-family: 'Oswald', sans-serif;
+}
+
+#button-save{
+    margin-left: 0px;
+    margin-top: 0px;
+    z-index: 1;
+}
+
+#button-submit{
+    margin-left: 0px;
+    margin-top: 0px;
 }
 
 #sidebar{
@@ -129,7 +166,6 @@ body{
 }
 
 #title_picture{
-
     width: 750px;
     height: 375px;
 }

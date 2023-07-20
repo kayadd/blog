@@ -10,11 +10,13 @@
 
     <link rel="stylesheet" href="style.css">
 
-
+    <script src="scripts.js"></script>
 
 </head>
 
-<body>
+<body onload="getfullDate()">
+
+<script src="scripts.js"></script>
 
 <div id="blog-header">
     <h2 class="blog-header" id="blog-title"> >Blog von kayadd <br>
@@ -50,15 +52,21 @@
 
     <h1> Schreibe einen neuen Blogeintrag </h1>
 
-    <input type="text" class="submit_title">
+    <input type="text" class="submit_title" id="article-title">
 
     <p><small id="meta"> Geschrieben von kayadd am 12.09.2022 </small></p>
 
-    <input type="text" class="submit_main">
+    Bild einfügen <input type="file" class="button" id="button-picture">
 
-    <button type="submit" > Speichern  </button>
-    <button type="submit" > Absenden  </button>
+    Überschrift <input type="text" id="subtitle_submit">
 
+    <button type="button" class="button" id="button-title" onclick="add_title()">
+    Einfügen </button>
+
+    <textarea class="submit_main" id="text-main"></textarea>
+
+    <button type="button" class="button" id="button-save" onclick="save();"> Speichern  </button>
+    <button type="button" class="button" id="button-submit"> Absenden  </button>
 
     </div>
 
@@ -76,7 +84,7 @@
     </a>
 
     <a href="https://www.youtube.com/watch?v=angQTehe5A0" class="hidden-link">
-    <p class="rec" id="rec2"> Die Analyse von Wellen mithilfe der Fouriertrasformation <br>
+    <p class="rec" id="rec2"> Die Analyse von Wellen mithilfe der Fouriertransformation <br>
         <small> Geschrieben am 22.7.2023</small> </p>
     </a>
 
