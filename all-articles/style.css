@@ -1,13 +1,16 @@
+/*Sets the color and the font for all text in body */
 body{
     background-color: #FFFFFF;
     font-family: 'Oswald', sans-serif;
 }
 
+/*Sets the position for the blog title */
 #blog-title{
     margin-top: -375px;
     margin-left: -660px;
 }
 
+/*For the class blog header, set the width, height and the position*/
 .blog-header{
     position: absolute;
     top: 50%;
@@ -16,26 +19,32 @@ body{
     height: 100px;
 }
 
+/*For the class hidden-link set the color as black and remove text decoration*/
+/*Is used to make links look like normal text*/
 .hidden-link{
     color: black;
     text-decoration: none;
 }
 
+/*Sets the position of the links */
 #links{
     margin-top: -65px;
     margin-left: -660px;
 }
 
+/*Sets the position of the about-me text*/
 #about-me{
     margin-top: -175px;
     margin-left: -660px;
 }
 
+/*Sets the size for every logo*/
 .logo{
     width:18px;
     height:18px;
 }
 
+/*Sets the position of the github-logo*/
 #github-logo{
     position: absolute;
     top: 50%;
@@ -44,6 +53,7 @@ body{
     margin-left: -610px;
 }
 
+/*Sets the position of the reddit-logo*/
 #reddit-logo{
     position: absolute;
     top: 50%;
@@ -52,17 +62,21 @@ body{
     margin-left: -610px;
 }
 
+/*Sets the position of the black line */
 #blog-header-line-left {
     position: absolute;
     top: 50%;
     left: 50%;
     margin-top: -375px;
     margin-left: -395px;
+
+    /*Sets the attributes to be a line*/
     width: 1px;
     height: 400px;
     border-right: solid;
 }
 
+/*Sets the position of the main-text*/
 #main-text{
     position: absolute;
     top: 50%;
@@ -73,6 +87,7 @@ body{
     height: 100px;
 }
 
+/*Sets the border and position of the button to create a new article*/
 #add-ar{
     border-radius: 10px;
     padding: 10px;
@@ -87,6 +102,7 @@ body{
     text-align: center;
 }
 
+/*Sets te position, width and height of the sidebar*/
 #sidebar{
     position: absolute;
     top: 50%;
@@ -97,6 +113,7 @@ body{
     height: 100px;
 }
 
+/*For the class recommended, set the left position, border, width and height*/
 .rec{
     border-radius: 10px;
     padding: 10px;
@@ -109,14 +126,17 @@ body{
     margin-left: -370px;
 }
 
+/*Sets the top position for the first recommended article*/
 #rec1{
     margin-top: -275px;
 }
 
+/*Sets the top position for the second recommended article*/
 #rec2{
     margin-top: -170px;
 }
 
+/*Sets the top position for the third recommended article*/
 #rec3{
     margin-top: -65px;
 }

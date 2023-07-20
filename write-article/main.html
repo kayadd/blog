@@ -4,32 +4,41 @@
     <meta charset="UTF-8">
     <title> Schreibe deinen Artikel </title>
 
+    <!--Adds the new font from the google-font-manager -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 
+    <!--Connects the style.css file to the html-document -->
     <link rel="stylesheet" href="style.css">
 
+    <!--Connects the scripts.js file to the html-document -->
     <script src="scripts.js"></script>
 
 </head>
 
+<!--Gets the current date on loading the body. -->
 <body onload="getfullDate()">
 
+<!--Connects the scripts.js file to the html-document -->
 <script src="scripts.js"></script>
 
+<!--Contains all elements for the header -->
 <div id="blog-header">
+    <!--Adds the blog-title -->
     <h2 class="blog-header" id="blog-title"> >Blog von kayadd <br>
                          Philosophie, Mathematik, <br>
                          Physik, Informatik und alles, <br>
                          was mich sonst noch so <br>
                          interessiert </h2>
 
+    <!--Adds the about-me info -->
     <p class="blog-header" id="about-me"> Ich bin ein 18 Jahre alter <br>
                                           Mathematikstudent in Deutschland,<br>
                                           der gerne in seiner Freizeit <br>
                                           programmiert. <br> </p>
 
+    <!--Renders the links and logos to GitHub and reddit -->
     <p class="blog-header" id="links"> <a href="https://github.com/kayadd/blog" class="hidden-link"> Github </a> <br>
                                        <a href="https://www.reddit.com/user/hirudoraa" class="hidden-link"> Reddit </a> <br>
 
@@ -42,41 +51,56 @@
 
 </div>
 
+<!--Contains all the main content -->
 <div id="content">
 
+    <!--Adds the line that separates main from header -->
     <div id="blog-header-line-left"></div>
 
+     <!--Adds the line that separates main from recommended -->
     <div id="blog-header-line-right"></div>
 
+    <!--Adds the main-text -->
     <div id="main-text">
 
+    <!--Adds the main title -->
     <h1> Schreibe einen neuen Blogeintrag </h1>
 
+    <!--Adds the input text for the title -->
     <input type="text" class="submit_title" id="article-title">
 
+    <!--Adds an author and date-->
     <p><small id="meta"> Geschrieben von kayadd am 12.09.2022 </small></p>
 
+    <!--Adds the data-input -->
     Bild einfügen <input type="file" class="button" id="button-picture">
 
+    <!--Adds the text input for titles-->
     Überschrift <input type="text" id="subtitle_submit">
 
+    <!--Adds the confirm-title or picture-button  -->
     <button type="button" class="button" id="button-title" onclick="add_title()">
     Einfügen </button>
 
+    <!--Adds the text input for the article -->
     <textarea class="submit_main" id="text-main"></textarea>
 
+    <!--Adds the button to save the article -->
     <button type="button" class="button" id="button-save" onclick="save();"> Speichern  </button>
+
+    <!--Adds the button to save the article -->
     <button type="button" class="button" id="button-submit"> Absenden  </button>
 
     </div>
 
 </div>
 
+<!--Adds the recommended bar -->
 <div id="recommended bar">
     <div id="sidebar">
     <h3 class="1title"> Weitere Artikel </h3>
 </div>
-
+    <!--adds all recommended articles -->
     <div id="rec-article">
     <a href="../main.html" class="hidden-link">
     <p class="rec" id="rec1"> Ein Plädoyer für die Philosophie <br>
@@ -94,7 +118,7 @@
     </a>
 
 </div>
-
+<!--Adds the all-article text -->
     <div id="all-articles">
     <p class="rec" id="all-a"> <a id ="all-rec" href="../all-articles/main.html">
         Alle Artikel ansehen</a></p>
